@@ -1,0 +1,83 @@
+h1 {
+    color: black;
+    font-family: 'Lora', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: black;
+    font-family: 'Lora', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    color: black;
+    font-family: 'Lora', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    text-align: center;
+}
+
+input[type=text] {
+    width: 400px;
+ }
+
+  .memeContainer {
+    height: auto;
+    width: 270px;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    color: white;
+    background-size: 100%;
+    cursor: pointer;
+  }
+  
+  .memeContainer:hover {
+    width: 270px;
+    height: auto;
+    background-color:#000;
+    opacity:0.5;
+    border-radius:10px;
+}
+
+  .memeText {
+    position: absolute;
+    left: 0;
+    right: 0; 
+    font-family: impact;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0px 2px 0 #000,
+    2px 0px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 2px 5px #000;
+  }
+
+  .topText {
+    position: absolute;
+    top: 0;
+    text-align: center;
+  }
+
+  .bottomText {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    
+  }
